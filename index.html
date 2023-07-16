@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="pastel">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/css/globals.css" />
+    <title>home - Akuna</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- hero start -->
+    <div
+      id="hero"
+      class="hero min-h-screen"
+      style="background-image: url(public/images/hero.svg)"
+    >
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">Akuna - Face Care</h1>
+          <p class="mb-5">
+            Selamat datang di situs perawatan wajah kami! Kami hadir untuk
+            memberikan informasi terkini, tips, dan produk terbaik untuk
+            membantu Anda merawat dan menjaga kecantikan kulit wajah Anda. Kami
+            percaya bahwa perawatan wajah adalah investasi yang penting bagi
+            kesehatan dan kepercayaan diri Anda.
+          </p>
+          <a href="index.html#article" class="btn btn-primary"> Get Started </a>
+        </div>
+      </div>
+    </div>
+    <!-- hero end -->
+    <!-- article start -->
+    <section class="py-20 mt-10" id="article">
+      <!-- heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2 mb-10">
+        <h1 class="text-3xl text-center font-bold">Getting Started</h1>
+      </div>
+      <div class="px-48">
+        <div class="mt-5 flex flex-col w-full">
+          <div
+            class="grid h-auto card bg-base-300 rounded-box place-items-center"
+          >
+            <h3 class="mt-5 mb-3 text-xl text-pink-400">
+              Rahasia Kulit Wajah Cantik
+            </h3>
+            <p class="mb-5 max-w-lg text-center text-slate-600">
+              Menjaga kulit wajah yang sehat dan bercahaya tidak harus rumit.
+              Dalam panduan ini, kami akan membagikan langkah-langkah perawatan
+              dasar yang dapat Anda lakukan setiap hari, termasuk membersihkan,
+              mengeksfoliasi, dan melembapkan kulit wajah Anda. Temukan rahasia
+              untuk mendapatkan kulit wajah cantik yang Anda impikan!
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div
+            class="grid h-auto card bg-base-300 rounded-box place-items-center"
+          >
+            <h3 class="mt-5 mb-3 text-xl text-pink-400">
+              Mencapai Kulit Glowing dengan Perawatan ala Akuna
+            </h3>
+            <p class="mb-5 max-w-lg text-center text-slate-600">
+              Kami akan membahas rutinitas perawatan kulit yang terkenal, mulai
+              dari double cleansing, penggunaan toner, essence, hingga sheet
+              mask. Temukan cara-cara ini dapat membantu Anda mencapai kulit
+              wajah yang berkilau dan sehat.
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div
+            class="grid h-auto card bg-base-300 rounded-box place-items-center"
+          >
+            <h3 class="mt-5 mb-3 text-xl text-pink-400">
+              Mengatasi Masalah Kulit Wajah
+            </h3>
+            <p class="mb-5 max-w-lg text-center text-slate-600">
+              Jerawat, Flek Hitam, dan Kerutan Jerawat, flek hitam, dan kerutan
+              adalah beberapa masalah umum yang dihadapi oleh banyak orang.
+              Dalam artikel ini, kami akan memberikan tips tentang cara
+              mengatasi dan mencegah masalah-masalah kulit tersebut. Dapatkan
+              wawasan tentang penggunaan bahan alami, perawatan medis, dan
+              perubahan gaya hidup yang dapat membantu Anda mengembalikan
+              keindahan kulit wajah Anda.
+            </p>
+          </div>
+          <div class="divider"></div>
+        </div>
+      </div>
+    </section>
+    <!-- article end -->
+    <!-- products start -->
+    <section class="py-20 mt-10" id="products">
+      <!-- heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center font-bold">Our Products</h1>
+      </div>
+      <section class="py-10">
+        <div
+          class="mx-auto grid max-w-6xl grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        >
+          <!-- Product 1 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/18/77cab7c7-3821-41f3-82ca-225e77ecef3e.jpg.webp?ect=4g"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-1">
+                  Akuna Botanical Face Toner - Willowbark
+                </h2>
+                <p class="text-slate-500">Toner</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-1">
+                    107k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(1)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+          <!-- Product 2 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/700/VqbcmM/2022/5/25/e36e52cf-c656-4d76-acbc-252115699fad.jpg.webp?ect=4g"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-2">
+                  Akuna Bergamot Spirulina Face Cream Soap - Basa
+                </h2>
+                <p class="text-slate-500">Soap</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-2">
+                    55k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(2)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+          <!-- Product 3 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/700/VqbcmM/2023/5/10/ad647fa7-39e0-4549-99b0-e9bd5d9913c6.jpg.webp?ect=4g"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-3">
+                  Clay Face Cleanser Bar - Frankincense
+                </h2>
+                <p class="text-slate-500">Cleanser</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-3">
+                    57k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(3)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+          <!-- Product 4 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/700/VqbcmM/2023/5/22/b20049f8-a268-44a1-8f44-5ff50c51b3c5.jpg.webp?ect=4g"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-4">
+                  Akuna Herbs / Flower Foam Face Cleanser Basil, Lavender
+                </h2>
+                <p class="text-slate-500">Cleanser</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-4">
+                    63k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(4)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+          <!-- Product 5 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/700/VqbcmM/2021/4/20/c874a3cd-e897-4c85-97df-d977ad004969.jpg.webp?ect=4g"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-5">
+                  Akuna ALoe Vera Eye Gel Natural
+                </h2>
+                <p class="text-slate-500">Eye Gel</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-5">
+                    60k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(5)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+          <!-- Product 6 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/900/XwPCqN/2021/11/11/5ee1e257-b03a-4c51-a800-bbd66b094160.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-6">
+                  Akuna Coconut Free Bare Rice Foam Soap
+                </h2>
+                <p class="text-slate-500">Soap</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-6">
+                    87k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(6)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+          <!-- Product 7 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/700/VqbcmM/2020/10/1/d57e59e4-16ec-43e7-a896-c1032c26a406.png.webp?ect=4g"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-7">
+                  Akuna Simply Kemiri Sunscreen
+                </h2>
+                <p class="text-slate-500">Sunscreen</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-7">
+                    115k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(7)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+          <!-- Product 8 -->
+          <article
+            class="rounded-xl bg-gray-400 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+          >
+            <a href="#">
+              <div class="relative flex items-end overflow-hidden rounded-xl">
+                <img
+                  src="https://images.tokopedia.net/img/cache/700/VqbcmM/2020/10/1/a00d679a-8771-40ff-a7d5-d85881b12b28.png.webp?ect=4g"
+                  alt=""
+                />
+              </div>
+              <div class="mt-1 p-2">
+                <h2 class="text-slate-700" id="product-name-8">
+                  Akuna Kemiri Sun Protector Balm
+                </h2>
+                <p class="text-slate-500">Balm</p>
+                <div class="mt-2 flex items-end justify-between">
+                  <p class="text-xl text-rose-500" id="product-price-8">
+                    80k <span class="text-white">IDR</span>
+                  </p>
+                  <button
+                    type="button"
+                    onclick="addToCart(8)"
+                    class="text-white text-md font-semibold bg-emerald-500 py-1 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110"
+                  >
+                    Beli
+                  </button>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+    </section>
+    <!-- products end -->
+    <!-- about start -->
+    <section class="py-20 mt-10 min-h-screen" id="about">
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2 mb-10">
+        <h1 class="text-3xl text-center font-bold">About Us</h1>
+      </div>
+      <div class="flex items-center justify-between px-20">
+        <div class="w-1/2">
+          <p class="text-gray-600 ml-48 mb-5 text-xl max-w-lg">
+            Visi kami adalah membantu setiap individu mencapai kulit wajah yang
+            sehat, cerah, dan bercahaya. Melalui penelitian mendalam, pengalaman
+            praktis, dan wawasan industri terkini, kami berkomitmen untuk
+            menyajikan konten-konten informatif, bermanfaat, dan dapat dipercaya
+            kepada Anda.
+          </p>
+          <p class="text-gray-600 ml-48 mb-5 text-2xl">
+            Apa yang dapat Anda temukan di situs kami?
+          </p>
+          <!-- colapse start -->
+          <div
+            tabindex="0"
+            class="collapse collapse-arrow border border-base-300 bg-base-200 ml-48 mb-5 max-w-lg"
+          >
+            <div class="collapse-title text-xl font-medium">
+              Tips Perawatan yang Dapat Diterapkan
+            </div>
+            <div class="collapse-content">
+              <p>
+                Kami ingin memastikan bahwa setiap pengunjung kami dapat
+                mengambil langkah-langkah konkret untuk merawat kulit wajah
+                mereka. Oleh karena itu, kami menyajikan tips praktis dan metode
+                yang mudah diterapkan dalam rutinitas perawatan harian, sehingga
+                Anda dapat merasakan hasil yang nyata.
+              </p>
+            </div>
+          </div>
+          <div
+            tabindex="0"
+            class="collapse collapse-arrow border border-base-300 bg-base-200 ml-48 mb-5 max-w-lg"
+          >
+            <div class="collapse-title text-xl font-medium">
+              Informasi Mendalam
+            </div>
+            <div class="collapse-content">
+              <p>
+                Kami menyediakan artikel-artikel yang mencakup berbagai topik
+                perawatan wajah, mulai dari perawatan dasar harian hingga solusi
+                khusus untuk masalah kulit tertentu. Setiap artikel didukung
+                oleh penelitian terkini dan saran dari para ahli kulit yang
+                berpengalaman.
+              </p>
+            </div>
+          </div>
+          <div
+            tabindex="0"
+            class="collapse collapse-arrow border border-base-300 bg-base-200 ml-48 mb-5 max-w-lg"
+          >
+            <div class="collapse-title text-xl font-medium">
+              Rekomendasi Produk Terpercaya
+            </div>
+            <div class="collapse-content">
+              <p>
+                Dalam upaya kami untuk memberikan pengalaman perawatan wajah
+                yang holistik, kami merekomendasikan produk-produk terbaik yang
+                telah kami teliti dan uji secara menyeluruh. Produk-produk ini
+                dipilih dengan cermat untuk memenuhi standar kualitas tinggi dan
+                memberikan manfaat terbaik bagi kulit wajah Anda.
+              </p>
+            </div>
+          </div>
+          <!-- colapse end -->
+        </div>
+        <div class="w-1/2 flex justify-center items-center">
+          <img
+            src="public/images/about.svg"
+            alt="about-img"
+            class="rounded-lg shadow-md"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- subscribe start -->
+    <section
+      class="py-20 mt-10 min-h-screen"
+      id="subscribe"
+      style="background-image: url(public/images/subscribe.svg)"
+    >
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2 mb-10">
+        <h1 class="text-3xl text-center font-bold">Subscribe</h1>
+      </div>
+      <div class="collapse bg-base-200 max-w-xs ml-20 mt-20">
+        <input type="checkbox" class="peer" />
+        <div
+          class="collapse-title text-center text-xl bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+        >
+          Subscribe Now
+        </div>
+        <div
+          class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+        >
+          <form action="">
+            <div class="form-control w-full max-w-xs mb-5">
+              <label class="label">
+                <span class="label-text">Email</span>
+              </label>
+              <input
+                type="email"
+                placeholder="email"
+                class="input input-bordered w-full max-w-xs"
+              />
+            </div>
+            <input type="submit" value="Submit" class="btn" />
+          </form>
+        </div>
+      </div>
+      <div class="w-full ml-20 mt-36 shadow-md">
+        <p class="text-4xl max-w-5xl mb-5">
+          Nikmati tips perawatan wajah yang disesuaikan dan disampaikan langsung
+          ke kotak masuk email Anda. Kami akan memberikan saran-saran yang
+          berguna dan mudah diterapkan untuk membantu Anda merawat kulit wajah
+          Anda dengan lebih baik dan mencapai hasil yang optimal.
+        </p>
+      </div>
+    </section>
+    <!-- subscribe end -->
+    <div id="footer"></div>
+    <script src="public/js/script.js"></script>
+    <script src="public/js/jquery-3.7.0.min.js"></script>
+  </body>
+</html>
